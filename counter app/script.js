@@ -10,7 +10,8 @@ function increse(){
    counterEl.innerText = count;
 }
 function reset(){
-counterEl.innerText = 0;
+    count = 0;
+    counterEl.innerText = count;
 }
 function decrese(){
    count--
